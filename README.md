@@ -44,12 +44,11 @@ python vtt-translate.py
 ```
 
 2. Follow the interactive prompts:
-   - Enter the path to your English VTT file (or press Enter for default: `subtitles-en.vtt`)
+   - Enter the path to your English VTT file
    - The script will automatically translate and save the Korean version
 
 3. Find your translated file:
-   - Input: `subtitles-en.vtt` → Output: `subtitles-ko.vtt`
-   - Input: `my-video.vtt` → Output: `my-video-ko.vtt`
+   - Input files get `-ko` suffix added before the extension
 
 ## Example
 
@@ -61,14 +60,14 @@ VTT Subtitle Translation Tool
 Powered by Gemini 2.5 Flash AI Model
 
 Step 1: Input file selection
-Enter VTT file path (default: subtitles-en.vtt, type 'exit' to quit): 
+Enter VTT file path (type 'exit' to quit): 
 
 Step 2: Loading API configuration
 ✓ Gemini API key loaded successfully
 
 Step 3: Parsing VTT file
-Reading file: subtitles-en.vtt
-✓ Detected English VTT file with 125 subtitle entries
+Reading file: [your-file.vtt]
+✓ Detected English VTT file with subtitle entries
 
 Step 4: Translating subtitles to Korean
 Translating 125 subtitle entries...
@@ -77,7 +76,7 @@ Translating 125 subtitle entries...
 ...
 
 Step 5: Saving Korean VTT file
-Korean subtitles saved to: subtitles-ko.vtt
+Korean subtitles saved to: [your-file-ko.vtt]
 ✓ Translation completed successfully!
 ```
 
@@ -108,9 +107,7 @@ vtt-translate/
 ├── vtt-translate.py      # Main translation script
 ├── requirements.txt      # Python dependencies
 ├── CLAUDE.md            # Development documentation
-├── README.md            # This file
-├── subtitles-en.vtt     # Sample English subtitles
-└── subtitles-ko.vtt     # Generated Korean subtitles
+└── README.md            # This file
 ```
 
 ## Error Handling

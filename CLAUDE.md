@@ -34,5 +34,5 @@ python vtt-translate.py
 - Uses `google-generativeai` library for AI translation
 - Processes subtitles in batches for efficiency
 - Supports standard WebVTT format files
-- Output files are named with `-ko` suffix (e.g., `subtitles-en.vtt` → `subtitles-ko.vtt`)
+- Output files are named with `-ko` suffix
 - Features step-by-step progress display with animated spinners
