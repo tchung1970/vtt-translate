@@ -1,0 +1,31 @@
+$ python vtt-translate.py 
+VTT Subtitle Translation Tool
+=============================
+Powered by Gemini 2.5 Flash AI Model
+
+Step 1: Input file selection
+Enter VTT file path (default: subtitles-en.vtt, type 'exit' to quit): 
+
+Step 2: Loading API configuration
+✓ Gemini API key loaded successfully
+
+Step 3: Parsing VTT file
+Reading file: subtitles-en.vtt
+✓ Detected English VTT file with 73 subtitle entries
+
+Step 4: Translating subtitles to Korean
+Translating 73 subtitle entries...
+✔ Batch 1/8: Translated 10 subtitles 
+✔ Batch 2/8: Translated 10 subtitles 
+✔ Batch 3/8: Translated 10 subtitles 
+✔ Batch 4/8: Translated 10 subtitles 
+✔ Batch 5/8: Translated 10 subtitles 
+✔ Batch 6/8: Translated 10 subtitles 
+✔ Batch 7/8: Translated 10 subtitles 
+✔ Batch 8/8: Translated 3 subtitles  
+
+Step 5: Saving Korean VTT file
+Korean subtitles saved to: subtitles-ko.vtt
+✓ Translation completed successfully!
+✓ Korean subtitles saved as: subtitles-ko.vtt
+
