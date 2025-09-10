@@ -107,7 +107,11 @@ vtt-translate/
 ├── vtt-translate.py      # Main translation script
 ├── requirements.txt      # Python dependencies
 ├── CLAUDE.md            # Development documentation
-└── README.md            # This file
+├── README.md            # This file
+├── LICENSE              # MIT license
+├── subtitles-en.vtt     # Sample English subtitles
+├── subtitles-ko.vtt     # Sample Korean subtitles (translated)
+└── vtt-translate.txt    # Additional documentation
 ```
 
 ## Error Handling
